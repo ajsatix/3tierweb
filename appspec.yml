@@ -13,7 +13,7 @@ hooks:
       timeout: 300
       runas: root
   ApplicationStart:
-    - location: scripts/docker_build.sh
+    - location: scripts/docker_start.sh
       timeout: 300
       runas: root
  
